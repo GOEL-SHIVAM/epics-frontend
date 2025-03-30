@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import './App.css'
 import Navbar from './components/Navbar'
+import Chart from './components/Chart'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -14,6 +15,7 @@ function App() {
           count is {count}
         </button>
       </div>
+      <Chart />
     </>
   )
 }
